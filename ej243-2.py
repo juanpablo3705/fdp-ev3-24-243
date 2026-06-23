@@ -6,7 +6,7 @@ while True:
         else:
             print("Error. Ingrese una cantidad de pasajes positiva.")
     except ValueError:
-        print("Error. Ingrese números, no letras.")
+        print("Error. Ingrese sólo números, no letras.")
 
 total_ingresos = 0
 
